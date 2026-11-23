@@ -1,0 +1,7 @@
+# Profil de secours (MySQL indisponible) : --spring.profiles.active=h2
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:clientservicedb_wc
+    username: sa
+    password: ""

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- POM agregateur : eureka-server + service-client + service-car dans un seul projet IntelliJ -->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.example</groupId>
+    <artifactId>tp21-webclient</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
+    <name>tp21-webclient</name>
+    <modules>
+        <module>eureka-server</module>
+        <module>service-client</module>
+        <module>service-car</module>
+    </modules>
+</project>
